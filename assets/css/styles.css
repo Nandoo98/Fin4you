@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .3)), 
+    url(../images/grafico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+}
+
+.container {
+    width: 30%;
+    height: 20%;
+    margin: 100px auto;
+    box-shadow: 1px 2px 10px 5px #424242;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+    .container a{
+        margin: 50px ;
+        color: white;
+        text-decoration:none;
+        background-color: rgb(#f2f2f2f2);
+        padding:100px;
+        border-radius: 7px;
+        font-weight: 500;
+}
+    .container p { 
+        margin: 20px;
+        text-align: center;
+    }
+    .container:hover {
+        backdrop-filter:blur(10px);
+        box-shadow: 0px 0px 10px white;
+        text-align: center;
+}
+
+@media (max-width: 1000px){
+
+    .container{ 
+        box-shadow: 1px 2px 10px 5px #424242;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 2vmin;
+    }
+}
+
+@media (max-width: 600px){
+
+    .container{ 
+        box-shadow: 1px 2px 10px 5px #424242;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 3vmin;
+    }
+}
